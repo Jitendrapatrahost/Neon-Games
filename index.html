@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonGames - Gaming Portal</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+  <body>
+    <div class="cyberpunk-bg"></div>
+    
+    <!-- Floating Elements -->
+    <div class="floating-element joystick"></div>
+    <div class="floating-element pixel-char"></div>
+    <div class="floating-element neon-cube"></div>
+    <div class="floating-element circuit-line"></div>
+
+    <!-- Homepage -->
+    <div class="page homepage" id="homepage">
+        <h1 class="logo">NEONGAMES</h1>
+        <p class="tagline">Enter the Digital Realm</p>
+        <button class="browse-btn" onclick="showGames()">Browse Games</button>
+    </div>
+
+    <!-- Games Page -->
+    <div class="page games-page hidden" id="gamesPage">
+        <button class="back-btn" onclick="showHome()">← Back</button>
+        <h2 class="games-title">Featured Games</h2>
+        <div class="games-grid">
+  <a href="flappy-bird.html" style="text-decoration: none; color: inherit;">
+    <div class="game-card" style="cursor:pointer;">
+      <div class="game-image">🐤</div>
+      <h3 class="game-title">Flappy Bird</h3>
+      <p class="game-desc">Soar between pipes in this addictive arcade challenge. Tap to flap, avoid obstacles, and test your reflexes in a game of precision and timing. </p>
+    </div>
+  </a>
+</div>            <div class="game-card">
+                <div class="game-image">🚀</div>
+                <h3 class="game-title">Space Odyssey</h3>
+                <p class="game-desc">Explore the cosmos in this immersive space exploration game. Build your fleet and conquer new worlds.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-image">⚔️</div>
+                <h3 class="game-title">Neon Warrior</h3>
+                <p class="game-desc">Battle through digital realms with epic combat mechanics and stunning visual effects.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-image">🏆</div>
+                <h3 class="game-title">Victory Royale</h3>
+                <p class="game-desc">Compete in intense multiplayer battles. Strategy meets action in this competitive arena.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-image">🌟</div>
+                <h3 class="game-title">Stellar Quest</h3>
+                <p class="game-desc">Embark on an epic journey across galaxies. Discover new planets and alien civilizations.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-image">💎</div>
+                <h3 class="game-title">Crystal Hunters</h3>
+                <p class="game-desc">Mine precious crystals in underground caverns. Upgrade your gear and unlock new areas.</p>
+            </div>
+        </div>
+    </div>
+  <script src="script.js" defer></script>
+  </body>
+</html>
